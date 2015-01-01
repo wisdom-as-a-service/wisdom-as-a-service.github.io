@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-            Talk: TBD &middot; Wisdom as a Service
+            Twitter &middot; Wisdom as a Service
     </title>    <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@wisdomtour">
     <meta name="twitter:creator" content="@wisdomtour">
@@ -55,7 +55,7 @@
                 <li><a href="/faq" >FAQ</a></li>
                 <li><a href="/events" >Events</a></li>
                 <li><a href="/blog" >Blog</a></li>
-                <li><a href="/twitter" >Twitter</a></li>
+                <li><a href="/twitter" class="active">Twitter</a></li>
                 <li><a href="/about" >About</a></li>
                 <li><a href="/contact" >Contact</a></li>
                 </ul>
@@ -63,7 +63,18 @@
     </header>
 
     <div class="content">
-        
+        <style>
+    iframe[id^='twitter-widget-'] {
+        width:100% !important;
+        border: 1px solid #e8e8e8 !important;
+        border-radius: 7px !important;
+    }
+</style>
+<div class="jumbotron">Twitter Stream</div>
+    <div class="body">
+    <a class="twitter-timeline" href="https://twitter.com/coderabbi" data-widget-id="504357098948276224">Tweets by @coderabbi</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
         <footer class="primary-footer">
             &copy; 2015 Wisdom as a Service &nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://twitter.com/coderabbi"><i class="fa fa-twitter primary-footer__social"></i></a>
         </footer>
