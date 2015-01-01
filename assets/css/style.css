@@ -1,0 +1,236 @@
+/*
+ * CodeRabbi Yellow is #e7be45
+ */
+
+html {
+    height: 100%
+}
+
+body {
+	font-family: Lato, sans-serif;
+    font-size: 20px;
+    height: 100%;
+}
+
+a {
+	color: #e7be45;
+}
+	a:hover {
+		color: #222;
+        text-decoration: none;
+	}
+
+img {
+	max-width: 100%;
+}
+
+/* ----------- */
+
+.logo-penguin {
+	float: left;
+	margin-right: 0.5em;
+	margin-top: -10px;
+	width: 40px;
+}
+
+.hero {
+	margin-top: 2em;
+    margin-bottom: 2.5em;
+}
+
+.intro {
+    margin-bottom: 1.5em;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #383838;
+}
+
+.description {
+    margin-bottom: 2em;
+}
+
+.outro {
+    margin-bottom: 2em;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    font-weight: 300;
+    font-style: italic;
+    color: #383838;
+}
+
+.container {
+    min-height: 100%
+    position: relative;
+}
+
+.navbar {
+    font-family: Lato, sans-serif;
+    color: red;
+}
+
+.navbar-default {
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    border-color: #ddd;
+    border-radius: 0;
+    font-family: Lato, sans-serif;
+}
+
+.active {
+    color: #e7be45 !important;
+}
+
+.body {
+	margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.sponsors {
+    padding-top: 2.5em;
+    border-top: 1px solid #ddd;
+    margin-bottom: 1.5em;
+}
+
+.sponsor-grid {
+	margin-bottom: 1.5em;
+}
+
+.primary-footer {
+	border-top: 1px solid #ddd;
+	margin: 1.6em 0;
+	padding-top: .6em;
+    font-size: .8em;
+    font-weight: 300;
+}
+	.primary-footer__social {
+		color: #e7be45;
+	}
+		.primary-footer__social:hover {
+			color: #383838;
+		}
+
+.jumbotron {
+    background-image: url(/assets/img/banner.jpg);
+    opacity: 0.35;
+    color: white;
+    font-size: 3em;
+    font-weight: 900;
+    margin-top: .67em;
+    text-shadow: 1px 2px 3px #383838;
+}
+
+.faq {}
+	.faq dt {
+		font-size: 1.1em;
+        font-weight: 300;
+        color: #383838;
+	}
+	.faq dd {
+		margin-bottom: 1em;
+        margin-top: 0.3em;
+		margin-left: 0.5em;
+	}
+
+.standard-text {
+    text-align: justify;
+    color: #70706f;
+    line-height: 1.6em;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.contact {
+    margin-top: 2em;
+}
+
+.event-section {
+    margin-left: 3em;
+    margin-bottom: 1em;
+    color: #70706f;
+}
+
+.appearance {
+	margin-bottom: .4em;
+}
+
+.appearance-date {
+	padding-top: 0.5em;
+    color: #70706f;
+    font-size: .8em;
+    padding-top: .8em;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 8em;
+}
+
+.appearance-details {
+    font-weight: 300;
+}
+	.appearance-details__event {
+		color: #e7be45;
+		font-weight: 300;
+		margin-bottom: 0;
+		margin-top: 0;
+        font-size: 1.4em;
+        font-weight: 300;
+	}
+	.appearance-details__location {
+        color: #70706f;
+		font-size: .9em;
+        line-height: 1.1em;
+	}
+	.appearance-details__title {
+        font-size: 1em;
+        color: silver;
+	}
+
+.post {
+	margin-bottom: 2em;
+}
+	.post-header__title, .post-header__title a {
+		color: #383838;
+		margin-top: 0;
+        letter-spacing: 1.2px;
+        font-weight: 400;
+        font-size: 1.3em
+	}
+	.post-header__meta {
+		border: 2px solid #ccc;
+		border-width: 1px 0;
+		color: #999;
+        line-height: 1.4em;
+		font-size: .6em;
+		font-weight: 300;
+		letter-spacing: 0.1em;
+		padding: 0.3em;
+		text-transform: uppercase;
+	}
+    .post-body, .post-header, .post-photo {
+        margin-left: .8em;
+        margin-right: .8em;
+    }
+    .post-body {
+        font-weight: 300;
+        font-size: 1.2em;
+    }
+    .post-photo {
+        padding-top: .4em;
+        margin-bottom: .8em;
+        text-align: center;
+    }
+
+.message {
+    color: #70706f;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.navbar-default, .navbar-brand{
+    color: #70706f;
+    text-transform: none;
+    font-weight: 400;
+}
