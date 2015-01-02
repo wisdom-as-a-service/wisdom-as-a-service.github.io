@@ -108,26 +108,36 @@ img {
 			color: #383838;
 		}
 
-.jumbotron {
-    background-image: url(/assets/img/banner.jpg);
-    opacity: 0.35;
-    color: white;
+.marquee {
+    background-color: #383838;
+    border-radius: 0px;
+    color: white !important;
     font-size: 3em;
-    font-weight: 900;
+    font-weight: 300;
+    padding: .5em;
+    padding-left: .7em;
+    width: 100%;
     margin-top: .67em;
-    text-shadow: 1px 2px 3px #383838;
+    text-shadow: 1px 1px white;
+    letter-spacing: 0.1em;
 }
 
 .faq {}
 	.faq dt {
-		font-size: 1.1em;
-        font-weight: 300;
+        font-size: 1.2em;
+        line-height: 1.6em;
         color: #383838;
+        font-weight: 400;
 	}
 	.faq dd {
 		margin-bottom: 1em;
         margin-top: 0.3em;
 		margin-left: 0.5em;
+        text-align: justify;
+        color: #70706f;
+        line-height: 1.6em;
+        font-weight: 300;
+        font-size: 1.2em;
 	}
 
 .standard-text {
@@ -145,7 +155,10 @@ img {
 .event-section {
     margin-left: 3em;
     margin-bottom: 1em;
-    color: #70706f;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #383838;
+    font-weight: 400;
 }
 
 .appearance {
@@ -187,11 +200,11 @@ img {
 	margin-bottom: 2em;
 }
 	.post-header__title, .post-header__title a {
-		color: #383838;
 		margin-top: 0;
-        letter-spacing: 1.2px;
+        font-size: 1.1em;
+        line-height: 1.6em;
+        color: #383838;
         font-weight: 400;
-        font-size: 1.3em
 	}
 	.post-header__meta {
 		border: 2px solid #ccc;
@@ -211,6 +224,7 @@ img {
     .post-body {
         font-weight: 300;
         font-size: 1.2em;
+        text-align: justify;
     }
     .post-photo {
         padding-top: .4em;
