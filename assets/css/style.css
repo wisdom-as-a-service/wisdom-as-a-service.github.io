@@ -48,6 +48,7 @@ img {
 }
 
 .outro {
+    margin-top: -1em;
     margin-bottom: 2em;
     font-size: 1.1em;
     line-height: 1.6em;
@@ -244,4 +245,99 @@ img {
     color: #70706f;
     text-transform: none;
     font-weight: 400;
+}
+
+.sponsor-image-top {
+    background-color: white;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.six-col {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.four-col {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.three-col {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.two-col {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.one-col {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.sponsor-image-bottom {
+    margin-top: -30px;
+    text-align: center;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+    border-bottom: solid 1px black;
+    margin-bottom: 30px;
+}
+
+.titanium {
+    background-color: #383838;
+    color: white;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.platinum {
+    background-color: #F0F8FF;
+    color: #383838;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.gold {
+    background-color: #FBB117;
+    color: white;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1.2em;
+}
+
+.silver {
+    background-color: lightgrey;
+    color: #383838;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1em;
+}
+
+.bronze {
+    background-color: #CD7F32;
+    color: white;
+    font-weight: 400;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: .8em;
+}
+
+.copper {
+    background-color: saddlebrown;
+    color: white;
+    font-weight: 400;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: .8em;
 }
