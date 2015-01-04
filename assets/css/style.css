@@ -48,7 +48,7 @@ img {
 }
 
 .outro {
-    margin-top: -1em;
+    margin-top: -.5em;
     margin-bottom: 2em;
     font-size: 1.1em;
     line-height: 1.6em;
@@ -89,10 +89,6 @@ img {
     padding-top: 2.5em;
     border-top: 1px solid #ddd;
     margin-bottom: 1.5em;
-}
-
-.sponsor-grid {
-	margin-bottom: 1.5em;
 }
 
 .primary-footer {
@@ -254,23 +250,23 @@ img {
 }
 
 .six-col {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .four-col {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .three-col {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .two-col {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .one-col {
@@ -279,12 +275,11 @@ img {
 }
 
 .sponsor-image-bottom {
-    margin-top: -30px;
     text-align: center;
     border-right: solid 1px black;
     border-left: solid 1px black;
     border-bottom: solid 1px black;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .titanium {
@@ -340,4 +335,29 @@ img {
     padding-top: 3px;
     padding-bottom: 3px;
     font-size: .8em;
+}
+
+.col-lg-2 {
+    padding: 10px;
+}
+
+.col-lg-3 {
+    padding: 10px;
+}
+
+.col-lg-4 {
+    padding: 10px;
+}
+
+.col-lg-6 {
+    padding: 10px;
+}
+
+.col-lg-12 {
+    padding: 10px;
+}
+
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
 }
