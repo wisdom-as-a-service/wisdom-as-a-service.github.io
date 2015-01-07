@@ -250,6 +250,11 @@ img {
 }
 
 .six-col {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.six-col {
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -337,6 +342,10 @@ img {
     font-size: .8em;
 }
 
+.col-lg-1 {
+    padding: 10px;
+}
+
 .col-lg-2 {
     padding: 10px;
 }
@@ -364,4 +373,34 @@ img {
 
 .gotcha {
     display: none;
+}
+
+.community-bottom {
+    padding: 10px;
+    border: solid 1px black;
+    border-top:0;
+    padding-top: 10px;
+    padding-bottom: 150px;
+}
+
+.community-top {
+    margin-top: 1em;
+    background-color: darkseagreen;
+    color: white;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1em;
+    border: solid 1px black;
+    text-align: center;
+}
+
+.community-column {
+    padding-left:30px;
+    font-weight: 300;
+    color: #383838;
+}
+
+ul.circle {
+    list-style-type: circle;
 }
