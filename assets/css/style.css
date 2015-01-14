@@ -404,3 +404,7 @@ img {
 ul.circle {
     list-style-type: circle;
 }
+
+.speaker {
+    margin-bottom:1em;
+}
